@@ -10,10 +10,6 @@ public class Greeting {
         this.timeOfDay = timeOfDay;
     }
 
-    public Greeting(){
-
-    }
-
     // GETTERS & SETTERS
     public String getName(){
         return this.name;
