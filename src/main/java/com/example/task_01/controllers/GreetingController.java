@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping // do we need this as well as GetMapping?
+@RequestMapping("/greeting")
 
 public class GreetingController {
 

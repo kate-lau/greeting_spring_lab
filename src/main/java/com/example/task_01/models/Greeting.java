@@ -10,6 +10,9 @@ public class Greeting {
         this.timeOfDay = timeOfDay;
     }
 
+    public Greeting(){
+    } // NEED AN EMPTY "DEFAULT" CONSTRUCTOR
+
     // GETTERS & SETTERS
     public String getName(){
         return this.name;
